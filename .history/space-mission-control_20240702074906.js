@@ -42,21 +42,7 @@ function startCountdown(duration) {
 
 // Task 7: Schedule Pre-Launch Activities and Launch
 function scheduleMission() {
-  addOneTimeTask(() => {
-    console.log("Pre-launch System Check");
-  }, 1000);
-
-  addOneTimeTask(() => {
-    startMonitoring();
-  }, 2000);
-
-  addOneTimeTask(() => {
-    stopMonitoring();
-  }, 20000);
-
-  addOneTimeTask(() => {
-    startCountdown(10);
-  }, 20000);
+  // TODO: Use the functions you've created to schedule the pre-launch system check, start and stop monitoring, and execute the countdown. Make sure to adjust the delays appropriately to simulate a real mission timeline.
 }
 
 scheduleMission(); // Starts the mission.
