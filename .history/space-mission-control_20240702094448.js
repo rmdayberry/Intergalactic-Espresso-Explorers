@@ -57,8 +57,7 @@ function scheduleMission() {
   addOneTimeTask(() => {
     startCountdown(10);
   }, 20000);
-
-  runOneTimeTasks();
 }
+runOneTimeTasks();
 
 scheduleMission(); // Starts the mission.
